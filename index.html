@@ -10,8 +10,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Stylesheets -->
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/style.css">
+         <link rel="stylesheet" href="css/bootstrap.css">
+
+        
 
     </head>
     <body>
@@ -31,7 +34,7 @@
                         </nav>
                     </div><!-- end col-md-7 -->
                     <div class="col-md-5">
-                        <div class="social">
+                        <div class="social-icons">
                             <ul>
                                 <li><a href="#"><i class="fa fa-github"></i></a></li>
                                 <li><a href="#"><i class="fa fa-codepen"></i></a></li>
@@ -46,9 +49,11 @@
                 <img src="img/logo-main.png">
                 <h1>Glen Nepomuceno</h1>
                 <h2>Wordpress | Front-end Developer</h2>
-                <a href="#"><i class="fa fa-angle-down"></i></a>
+                <a href="#" class="angle-down"><i class="fa fa-angle-down"></i></a>
             </div> <!-- end container -->
         </div> <!-- end header-hero -->
+
+        <!-- ABOUT -->
         <section>
             <div class="section-about">
                 <div class="container">
@@ -59,29 +64,163 @@
         </section>
 
         <section>
-            <div class="container">
-                <h2>What I can do</h2>
-                <h4>I'm no expert but I'm working hard to get there</h4>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="">
-                    </div> <!-- end col-md-6 -->
-                    <div class="col-md-6">
-                        <ul>
-                            <li>
-                                <i></i>
-                                <h3>Front-end Development</h3>
-                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
-                            </li>
-                        </ul>
-                    </div> <!-- end col-md-6 -->
-                </div> <!-- end row -->
-            </div> <!-- end container -->
+            <div class="skills">
+                <div class="container">
+                    <h2>What I can do</h2>
+                    <h4>I'm no expert but I'm working hard to get there</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="img/desktop.jpg">
+                        </div> <!-- end col-md-6 -->
+                        <div class="col-md-6">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-desktop"></i>
+                                    <h3>Front-end Development</h3>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-mobile"></i>
+                                    <h3>Mobile Development</h3>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-wordpress"></i>
+                                    <h3>Wordpress Development</h3>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                                </li>
+
+                                <li>
+                                    <i class="fa fa-line-chart"></i>
+                                    <h3>Digital Marketing</h3>
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit.</p>
+                                </li>
+                            </ul>
+                        </div> <!-- end col-md-6 -->
+                    </div> <!-- end row -->
+                </div> <!-- end container -->
+            </div> <!-- end skills -->
         </section>
 
+        <!-- PORTFOLIO -->
+        <section>
+            <div class="works-gallery">
+                <div class="container">
+                    <h2>My Works</h2>
+                    <h4>This is what I can do. Not much for now but I’m working on it.</h4>
+                    <div class="cycle-slideshow">
+                        <img src="img/portfolio-slide-1.png" alt="Aperio">
+                        <img src="img/portfolio-slide-2.png" alt="We Think">
+                        <img src="img/portfolio-slide-3.png" alt="Elara">
 
-        <script>
+                        <i class="fa fa-arrow-left cycle-prev"></i>
+                        <i class="fa fa-arrow-right cycle-next"></i>
+                    </div><!-- end cycle-slideshow -->
+                    <a href="#" class="button button-gallery">View All</a>
+                </div> <!-- end container -->
+            </div> <!-- end works -->
+        </section>
 
-        </script>
+        <!-- BANNER CTA -->
+        <section>
+            <div class="banner-cta">
+                <div class="container">
+                    <h3>Talk to me about your project, I’d love to hear from you!</h3>
+                    <a href="#" class="button button-cta">Get in Touch</a>
+                </div> <!-- end container -->
+            </div> <!-- end banner-cta -->
+        </section>
+
+        <!-- BLOG -->
+        <section>
+            <div class="blog">
+                <div class="container">
+                    <h2>My latest post</h2>
+                    <h4>This is to give you an idea on how I think and show you that I understand my craft.</h4>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="blog-post">
+                                <img src="img/post-img-1.jpg">
+                                <div class="post-details">
+                                    <a href="#"><h3>Standard Title Post Format for my Professional Website</h3></a>
+                                    <div class="post-meta">
+                                        <p>December 27, 2016 | <span>Productivity</span></p>
+                                    </div> <!-- end post-meta -->
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.<a href="#" class="clearfix">Read more</a></p>
+                                </div><!-- end post-meta-details -->
+                            </div><!-- end blog-post -->
+                        </div> <!-- end col-md-6 -->
+                        <div class="col-md-6">
+                            <div class="blog-post">    
+                                <img src="img/post-img-2.jpg">
+                                <div class="post-details">
+                                    <a href="#"><h3>Standard Title Post Format for my Professional Website</h3></a>
+                                    <div class="post-meta">
+                                        <p>December 27, 2016 | <span>Productivity</span></p>
+                                    </div> <!-- end post-meta -->
+                                    <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.<a href="#">Read more</a></p>
+                                </div><!-- end post-meta-details -->
+                            </div><!-- end blog-post -->
+                        </div> <!-- end col-md-6 -->
+                    </div> <!-- end row -->
+                    <a href="#" class="button button-light-bg">View All</a>
+                </div> <!-- end container -->
+            </div> <!-- end blog -->
+
+        <!-- CONTACT AREA -->
+        </section>
+            <div class="contact-area">
+                <div class="container">
+                    <h2>Let's get Started!</h2>
+                    <h4>I'd love to start working with you.</h4>
+                    <form action="/" method="post" class="contact-form">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="name" name="form-name" id="form-name" placeholder="Name"/>
+                            </div> <!-- end col-md-6 -->
+                            <div class="col-md-6">
+                                <input type="email" name="form-email" id="form-email" placeholder="Email Address"/>
+                            </div> <!-- end col-md-6 -->
+                            <div class="col-md-12">
+                                <textarea type="message" name="form-text-area" id="form-text-area" placeholder="Message"/></textarea>
+                            </div> <!-- end col-md-12 -->
+                            <div class="col-md-12">
+                                <input type="submit" value="Send Message" class="button contact-button" />
+                            </div> <!-- end col-md-12 -->
+                        </div><!-- end row -->
+                </form>
+                </div> <!-- end container -->    
+            </div> <!-- end contact-form -->
+        
+        <!-- FOOTER -->
+        <footer>
+            <div class="container">
+                <img src="img/logo-main.png">
+                <ul class="footer-social">
+                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa fa-codepen"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                </ul>
+                <ul class="footer-contact">
+                    <ul>
+                        <li><i class="fa fa-skype"></i> glen03xs</li>
+                        <li><i class="fa fa-envelope"></i> hello@glennepomuceno.com</li>
+                    </ul>
+                </ul>
+
+                <p>&copy; 2017 glennepomuceno.com | All Rights Reserved.</p>
+            </div> <!-- end container -->
+        </footer>
+        <!-- Javascript -->
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.cycle2.min.js"></script>
+        <script src="js/jquery.cycle2.swipe.min.js"></script>
     </body>
 </html>
+
+
