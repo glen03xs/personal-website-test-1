@@ -564,6 +564,71 @@ footer {
 	}
 	
 }
+/**************
+BLOG
+**************/
+/***** Page Header *****/
+header {
+	background-color: #179bd7;
+	height: 92px;
+
+	nav {
+		float: left;
+		margin-top: 37px;
+
+		ul li {
+			display: inline-block;
+			text-transform: uppercase;
+			margin-right: 22px;
+
+			a {
+				color: @header-hero-color;
+				font: 18px @heading-font;
+				text-decoration: none;
+
+				&:hover {
+					color: @link-color-hero-hover;
+					text-decoration: none;
+				}
+			
+				
+			}
+		}
+	}
+
+	.col-md-2 {
+		text-align: center;
+	}
+
+	img {
+		height: 94px;
+		width: 94px;
+		margin: 12px auto 0;
+	}
+}
+
+.social-icons-pages {
+	margin-top: 24px;
+}
+
+.active {
+	color: @link-color-hero-hover;
+	cursor: default;
+}
+
+/***** Blog *****/
+.blog-page {
+
+	ul {
+		padding-top: 8px;
+		li {
+			display: inline-block;
+			padding: 2px;
+		}
+	}
+}
+
+
 
 /***** UI *****/
 .button {
@@ -602,6 +667,12 @@ footer {
 		background-color: #179bd7;
 		color: #fff;
 	}
+}
+
+.active-page {
+	background-color: #179bd7;
+	color: #ffffff;
+	cursor: default;
 }
 
 

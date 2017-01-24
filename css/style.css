@@ -508,6 +508,55 @@ footer p {
   color: #fff;
   margin-right: 3px;
 }
+/**************
+BLOG
+**************/
+/***** Page Header *****/
+header {
+  background-color: #179bd7;
+  height: 92px;
+}
+header nav {
+  float: left;
+  margin-top: 37px;
+}
+header nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  margin-right: 22px;
+}
+header nav ul li a {
+  color: #ffffff;
+  font: 18px "Ubuntu", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #0a4f6e;
+  text-decoration: none;
+}
+header .col-md-2 {
+  text-align: center;
+}
+header img {
+  height: 94px;
+  width: 94px;
+  margin: 12px auto 0;
+}
+.social-icons-pages {
+  margin-top: 24px;
+}
+.active {
+  color: #0a4f6e;
+  cursor: default;
+}
+/***** Blog *****/
+.blog-page ul {
+  padding-top: 8px;
+}
+.blog-page ul li {
+  display: inline-block;
+  padding: 2px;
+}
 /***** UI *****/
 .button {
   border: 1px solid #ffffff;
@@ -535,4 +584,9 @@ footer p {
 .button-light-bg:hover {
   background-color: #179bd7;
   color: #fff;
+}
+.active-page {
+  background-color: #179bd7;
+  color: #ffffff;
+  cursor: default;
 }
